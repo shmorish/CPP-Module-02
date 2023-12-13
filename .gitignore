@@ -1,0 +1,14 @@
+# debug
+.vscode/
+
+# object files
+obj/
+objs/
+*.o
+*.d
+
+# replace files
+*.replace
+
+# executables
+Canonical_Form

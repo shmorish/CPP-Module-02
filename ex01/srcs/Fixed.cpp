@@ -53,7 +53,9 @@ void Fixed::setRawBits(int const raw)
 
 float Fixed::toFloat(void) const
 {
-    return (float)_fixedPointValue / (1 << _fractionalBits);
+    float f = (float)_fixedPointValue;
+
+    return f / (1 << _fractionalBits);
 }
 
 int Fixed::toInt(void) const

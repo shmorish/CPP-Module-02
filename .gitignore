@@ -11,5 +11,4 @@ objs/
 *.replace
 
 # executables
-Canonical_Form
-fixed-point
+cpp02*

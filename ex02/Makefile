@@ -1,4 +1,4 @@
-NAME = fixed-point
+NAME = cpp02ex02
 SRCS = $(wildcard srcs/*.cpp)
 OBJS = $(patsubst srcs/%.cpp, objs/%.o, $(SRCS))
 RM = rm -f

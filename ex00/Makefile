@@ -1,4 +1,4 @@
-NAME = Canonical_Form
+NAME = cpp02ex00
 SRCS = $(wildcard srcs/*.cpp)
 OBJS = $(patsubst srcs/%.cpp, objs/%.o, $(SRCS))
 RM = rm -f
